@@ -1,7 +1,7 @@
 export default class QuestionService  {
     public url = "http://123.57.174.186/api/";
 
-    public async createApplication(application: any) {
+    public async createApplication() {
       return await (await fetch(this.url + 'QuestionForm/createApplication', {
           method: "POST",
           headers: { "Content-Type": "application/json" },
