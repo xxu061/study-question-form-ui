@@ -25,7 +25,7 @@
       <th scope="row"><input
                       class="form-check-input"
                       type="checkbox"
-                      :id="'checkbox-' + index + '-' + major"
+                      :id="'checkbox-' + autoCompleteIndex + '-' + major"
                       :value="major"
                       v-model="selectedMajors"/></th>
       <td>{{major.name}}</td>

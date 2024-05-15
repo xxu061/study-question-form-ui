@@ -1,5 +1,5 @@
 export default class QuestionService  {
-    public url = "http://123.57.174.186/api/";
+    public url = "http://localhost:5002/api/";//"http://123.57.174.186/api/";
 
     public async createApplication() {
       return await (await fetch(this.url + 'QuestionForm/createApplication', {

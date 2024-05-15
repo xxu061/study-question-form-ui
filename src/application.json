@@ -1,0 +1,398 @@
+{
+    "id": "28effedd-1ee9-4947-9011-58ade709fb08",
+    "country": "新西兰",
+    "state": null,
+    "name": "xx",
+    "city": null,
+    "age": 20,
+    "qualification": "高三完成",
+    "gender": null,
+    "averageGrade": 65,
+    "preferredSchools": null,
+    "preferredMajors": [
+        {
+            "name": "会计学",
+            "faculty": "商学院",
+            "employerPreference": 60,
+            "studentPopularity": 90,
+            "averagePay": 50000,
+            "qsRank": 56,
+            "schoolName": "奥克兰大学",
+            "city": "奥克兰",
+            "degree": "商学学士",
+            "duration": "三年制",
+            "tuitionFee": 50000,
+            "displayName": "会计学 奥克兰大学",
+            "paths": [
+                {
+                    "country": "新西兰",
+                    "state": "奥克兰",
+                    "minimumScore": 65,
+                    "minimumQualification": [
+                        "高三完成"
+                    ],
+                    "eligibleSchools": [
+                        {
+                            "school": "奥克兰大学",
+                            "faculty": [
+                                "文学院",
+                                "理学院",
+                                "商学院",
+                                "教育与社会服务学院",
+                                "工程学院",
+                                "创意艺术与工业学院",
+                                "法学院",
+                                "医学与健康科学学院"
+                            ]
+                        }
+                    ],
+                    "name": "快速预科（Fast Track Foundation）+本科",
+                    "tuitionFee": 33400,
+                    "durationInMonth": 9,
+                    "isQualified": true,
+                    "disqualifyReasons": [],
+                    "selected": true,
+                    "englishRequirements": null
+                },
+                {
+                    "country": "新西兰",
+                    "state": "奥克兰",
+                    "minimumScore": 60,
+                    "minimumQualification": [
+                        "高三完成"
+                    ],
+                    "eligibleSchools": [
+                        {
+                            "school": "奥克兰大学",
+                            "faculty": [
+                                "文学院",
+                                "理学院",
+                                "商学院",
+                                "教育与社会服务学院",
+                                "工程学院",
+                                "创意艺术与工业学院",
+                                "法学院",
+                                "医学与健康科学学院"
+                            ]
+                        }
+                    ],
+                    "name": "标准预科（Standard Foundation）+本科",
+                    "tuitionFee": 33400,
+                    "durationInMonth": 12,
+                    "isQualified": true,
+                    "disqualifyReasons": [],
+                    "selected": false,
+                    "englishRequirements": null
+                },
+                {
+                    "country": "新西兰",
+                    "state": "奥克兰",
+                    "minimumScore": 75,
+                    "minimumQualification": [
+                        "高三完成"
+                    ],
+                    "eligibleSchools": [
+                        {
+                            "school": "奥克兰大学",
+                            "faculty": [
+                                "文学院",
+                                "理学院",
+                                "商学院",
+                                "教育与社会服务学院",
+                                "工程学院",
+                                "创意艺术与工业学院",
+                                "法学院",
+                                "医学与健康科学学院"
+                            ]
+                        }
+                    ],
+                    "name": "快捷预科（Accelerated Foundation）+本科",
+                    "tuitionFee": 25080,
+                    "durationInMonth": 6,
+                    "isQualified": false,
+                    "disqualifyReasons": [
+                        "最低平均分要求：75 申请人平均分：65"
+                    ],
+                    "selected": false,
+                    "englishRequirements": null
+                }
+            ]
+        },
+        {
+            "name": "会计学",
+            "faculty": "商学院",
+            "employerPreference": 60,
+            "studentPopularity": 90,
+            "averagePay": 50000,
+            "qsRank": 151,
+            "schoolName": "梅西大学",
+            "city": "奥克兰",
+            "degree": "会计学学士",
+            "duration": "三年制",
+            "tuitionFee": 50000,
+            "displayName": "会计学 梅西大学",
+            "paths": [
+                {
+                    "country": "新西兰",
+                    "state": "奥克兰",
+                    "minimumScore": 65,
+                    "minimumQualification": [
+                        "高三完成"
+                    ],
+                    "eligibleSchools": [
+                        {
+                            "school": "梅西大学",
+                            "faculty": [
+                                "文学院",
+                                "理学院",
+                                "商学院",
+                                "人文社科学院",
+                                "健康学院",
+                                "创意艺术学院"
+                            ]
+                        }
+                    ],
+                    "name": "标准预科（Foundation Certificate International Accelerated）+本科",
+                    "tuitionFee": 13200,
+                    "durationInMonth": 4,
+                    "isQualified": true,
+                    "disqualifyReasons": [],
+                    "selected": true,
+                    "englishRequirements": null
+                }
+            ]
+        }
+    ],
+    "ielts": null,
+    "path": null,
+    "questions": null,
+    "budget": "￥100000",
+    "dateCreated": "2024-05-13T15:14:16.214Z",
+    "targetQualification": "本科",
+    "startPeriod": "春季",
+    "bestMatch": {
+        "major": {
+            "name": "会计学",
+            "faculty": "商学院",
+            "employerPreference": 60,
+            "studentPopularity": 90,
+            "averagePay": 50000,
+            "qsRank": 151,
+            "schoolName": "梅西大学",
+            "city": "奥克兰",
+            "degree": "会计学学士",
+            "duration": "三年制",
+            "tuitionFee": 50000,
+            "displayName": "会计学 梅西大学",
+            "paths": [
+                {
+                    "country": "新西兰",
+                    "state": "奥克兰",
+                    "minimumScore": 65,
+                    "minimumQualification": [
+                        "高三完成"
+                    ],
+                    "eligibleSchools": [
+                        {
+                            "school": "梅西大学",
+                            "faculty": [
+                                "文学院",
+                                "理学院",
+                                "商学院",
+                                "人文社科学院",
+                                "健康学院",
+                                "创意艺术学院"
+                            ]
+                        }
+                    ],
+                    "name": "标准预科（Foundation Certificate International Accelerated）+本科",
+                    "tuitionFee": 13200,
+                    "durationInMonth": 4,
+                    "isQualified": true,
+                    "disqualifyReasons": [],
+                    "selected": true,
+                    "englishRequirements": null
+                }
+            ]
+        },
+        "score": 64049,
+        "path": {
+            "country": "新西兰",
+            "state": "奥克兰",
+            "minimumScore": 65,
+            "minimumQualification": [
+                "高三完成"
+            ],
+            "eligibleSchools": [
+                {
+                    "school": "梅西大学",
+                    "faculty": [
+                        "文学院",
+                        "理学院",
+                        "商学院",
+                        "人文社科学院",
+                        "健康学院",
+                        "创意艺术学院"
+                    ]
+                }
+            ],
+            "name": "标准预科（Foundation Certificate International Accelerated）+本科",
+            "tuitionFee": 13200,
+            "durationInMonth": 4,
+            "isQualified": true,
+            "disqualifyReasons": [],
+            "selected": true,
+            "englishRequirements": null
+        }
+    },
+    "targeting": {
+        "major": {
+            "name": "会计学",
+            "faculty": "商学院",
+            "employerPreference": 60,
+            "studentPopularity": 90,
+            "averagePay": 50000,
+            "qsRank": 151,
+            "schoolName": "梅西大学",
+            "city": "奥克兰",
+            "degree": "会计学学士",
+            "duration": "三年制",
+            "tuitionFee": 50000,
+            "displayName": "会计学 梅西大学",
+            "paths": [
+                {
+                    "country": "新西兰",
+                    "state": "奥克兰",
+                    "minimumScore": 65,
+                    "minimumQualification": [
+                        "高三完成"
+                    ],
+                    "eligibleSchools": [
+                        {
+                            "school": "梅西大学",
+                            "faculty": [
+                                "文学院",
+                                "理学院",
+                                "商学院",
+                                "人文社科学院",
+                                "健康学院",
+                                "创意艺术学院"
+                            ]
+                        }
+                    ],
+                    "name": "标准预科（Foundation Certificate International Accelerated）+本科",
+                    "tuitionFee": 13200,
+                    "durationInMonth": 4,
+                    "isQualified": true,
+                    "disqualifyReasons": [],
+                    "selected": true,
+                    "englishRequirements": null
+                }
+            ]
+        },
+        "score": 64049,
+        "path": {
+            "country": "新西兰",
+            "state": "奥克兰",
+            "minimumScore": 65,
+            "minimumQualification": [
+                "高三完成"
+            ],
+            "eligibleSchools": [
+                {
+                    "school": "梅西大学",
+                    "faculty": [
+                        "文学院",
+                        "理学院",
+                        "商学院",
+                        "人文社科学院",
+                        "健康学院",
+                        "创意艺术学院"
+                    ]
+                }
+            ],
+            "name": "标准预科（Foundation Certificate International Accelerated）+本科",
+            "tuitionFee": 13200,
+            "durationInMonth": 4,
+            "isQualified": true,
+            "disqualifyReasons": [],
+            "selected": true,
+            "englishRequirements": null
+        }
+    },
+    "conservative": {
+        "major": {
+            "name": "会计学",
+            "faculty": "商学院",
+            "employerPreference": 60,
+            "studentPopularity": 90,
+            "averagePay": 50000,
+            "qsRank": 151,
+            "schoolName": "梅西大学",
+            "city": "奥克兰",
+            "degree": "会计学学士",
+            "duration": "三年制",
+            "tuitionFee": 50000,
+            "displayName": "会计学 梅西大学",
+            "paths": [
+                {
+                    "country": "新西兰",
+                    "state": "奥克兰",
+                    "minimumScore": 65,
+                    "minimumQualification": [
+                        "高三完成"
+                    ],
+                    "eligibleSchools": [
+                        {
+                            "school": "梅西大学",
+                            "faculty": [
+                                "文学院",
+                                "理学院",
+                                "商学院",
+                                "人文社科学院",
+                                "健康学院",
+                                "创意艺术学院"
+                            ]
+                        }
+                    ],
+                    "name": "标准预科（Foundation Certificate International Accelerated）+本科",
+                    "tuitionFee": 13200,
+                    "durationInMonth": 4,
+                    "isQualified": true,
+                    "disqualifyReasons": [],
+                    "selected": true,
+                    "englishRequirements": null
+                }
+            ]
+        },
+        "score": 64049,
+        "path": {
+            "country": "新西兰",
+            "state": "奥克兰",
+            "minimumScore": 65,
+            "minimumQualification": [
+                "高三完成"
+            ],
+            "eligibleSchools": [
+                {
+                    "school": "梅西大学",
+                    "faculty": [
+                        "文学院",
+                        "理学院",
+                        "商学院",
+                        "人文社科学院",
+                        "健康学院",
+                        "创意艺术学院"
+                    ]
+                }
+            ],
+            "name": "标准预科（Foundation Certificate International Accelerated）+本科",
+            "tuitionFee": 13200,
+            "durationInMonth": 4,
+            "isQualified": true,
+            "disqualifyReasons": [],
+            "selected": true,
+            "englishRequirements": null
+        }
+    }
+}

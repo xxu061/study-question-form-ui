@@ -1,4 +1,4 @@
-import { ref, provide, inject } from 'vue';
+import { provide, inject } from 'vue';
 import QuestionService from '../service/QuestionService'
 
 export interface IQuestionService {

@@ -125,7 +125,8 @@ const QuestionForm = defineComponent({
         this.questions.push(questionSet);
         this.page++;
         if (moreQuestions.length === 0) {
-          this.$router.push({ name: 'recommendation' });
+          const query = {id: this.application.id};
+          this.$router.push({ name: 'recommendation', state: query });
         } else {
           this.currentQuestions = moreQuestions;
         }

@@ -19,7 +19,7 @@
                       type="checkbox"
                       :id="'checkbox-' + index + '-' + path"
                       :value="path"
-                      v-model="selectedPaths"/></th>
+                      v-model="path.selected"/></th>
               <td>{{path.name}}</td>
               <td>{{path.tuitionFee}}</td>
               <td>{{ path.durationInMonth }}</td>
@@ -44,18 +44,27 @@ export default {
   },
   data() {
     return {
-      application: this.$store.state.application,
+      application: {},
       recommendations: [],
     }
   },
   methods: {
     async getPaths(){
+      var id = history.state.id;
+      // if(id){
+      //   this.application = await this.questionService.getApplication(id);
+      // }
+      // else{
+        this.application = await this.questionService.getApplication(this.$store.state.application.id);
+      //}
       return await this.questionService.getPaths(this.application);
     },
     async next(){    
+      this.application.preferredMajors = this.majors;
       this.application = await this.questionService.choosePath(this.application);
-      // this.$store.commit('updateApplication', this.application);
-      // this.$router.push({ name: 'report'});
+      this.$store.commit('updateApplication', this.application);
+      const query = {id: this.application.id};
+      this.$router.push({ name: 'report', state: query});
     },
     getTips(path){
       return path.disqualifyReasons.join(" ");
